@@ -1,0 +1,429 @@
+/* Geral */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+  font-family: "BladeRunner";
+  src: url("../public/fonts/bladerunner/blade_runner.ttf");
+}
+
+:root {
+  --base-font: font-family: 'Roboto', sans-serif;
+  --bg-font: font-family: "BladeRunner";
+  --bg-color: #30373B;
+  --bg-color-alt: #1C1F23;
+  --btn-color: #30374D;
+  --color-text: #ffff;
+}
+
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* HOME & NAVBAR */
+#home {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--bg-color-alt);
+  position: relative;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-bar {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px 8% !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--color-text);
+}
+
+
+.nav-name {
+  font-size: 30px !important;
+  text-transform: uppercase;
+  font-weight: 500;
+
+  background-color: var(--bg-color-alt);
+  padding-top: 20px !important;
+  padding-left: 30px !important;
+  width: 270px;
+  height: 80px;
+
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.295);
+}
+
+
+.nav-link li {
+  list-style: none !important;
+  display: inline-block;
+  margin-left: 40px !important;
+}
+
+.nav-link li a {
+  text-decoration: none !important;
+  color: var(--color-text) !important;
+  font-size: 20px;
+
+  text-transform: uppercase !important;
+
+
+}
+
+li:hover {
+  border: 2px solid var(--color-text);
+  padding: 10px !important;
+  font-weight: bold;
+  transition: all 0.5s;
+  border-radius: 2px;
+}
+
+.home-page {
+  text-align: center;
+  color: var(--color-text);
+  z-index: 1;
+}
+
+.title {
+  font-size: 80px !important;
+  font-family: "BladeRunner";
+  transition: 0.5s;
+}
+
+.sub-title {
+  font-size: 50px !important;
+  font-family: var(--base-font) !important;
+  font-weight: bolder !important;
+  transition: 0.5s;
+}
+
+.title:hover,
+.sub-title:hover {
+  -webkit-text-stroke: 2px #fff !important;
+  color: transparent !important;
+}
+
+#down {
+  font-size: 80px !important;
+  position: relative !important;
+  top: 250px !important;
+  cursor: pointer;
+}
+
+.back-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  /* z-index: -1; */
+  opacity: 0.6 !important;
+}
+
+/* about */
+
+#about {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#fundo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: brightness(0.3);
+
+  width: 100%;
+  height: 100vh;
+}
+
+.about-title {
+  color: var(--color-text);
+  text-align: center;
+  position: relative;
+  top: -90px;
+  font-size: 70px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: "BladeRunner";
+}
+
+.about-desc {
+  color: var(--color-text);
+  float: left;
+  position: relative;
+  /* top: -10px; */
+  right: 150px;
+}
+
+.namest {
+  font-weight: bold;
+}
+
+.banner {
+  position: relative;
+  left: 150px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.486);
+}
+
+.plot-title {
+  color: var(--color-text);
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bolder;
+  position: relative;
+  left: -150px;
+  top: -120px;
+}
+
+.plot-content {
+  color: #fff;
+  position: relative;
+  float: left;
+  left: -150px;
+  top: -110px;
+  font-size: 17px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+
+#trailers {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .bg {
+position: relative !important;
+top: -120px;
+} */
+
+/* Characters section */
+
+#characters-section {
+  width: 100%;
+  height: 250vh;
+  position: relative;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-color);
+}
+
+.characters {
+  position: absolute;
+  color: var(--color-text);
+  top: 50px;
+  font-size: 54px !important;
+  font-family: "BladeRunner";
+  z-index: 1;
+}
+
+
+.side2 {
+  position: relative;
+  height: 515px;
+  width: 750px;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0 auto !important;
+  left: -100px;
+}
+
+.personages {
+  color: var(--color-text);
+  display: grid;
+  grid-template-columns: repeat(3, 450px);
+  gap: 120px;
+}
+
+.c-img {
+  width: 500px;
+}
+
+.c-text {
+  font-size: 30px;
+}
+
+.card1 p {
+  position: relative !important;
+  margin-top: 20px !important;
+  text-indent: 15px !important;
+}
+
+.ssf {
+  position: relative;
+  top: 34px;
+}
+
+.ssdf2 {
+  position: relative;
+  left: 570px;
+}
+
+/* news */
+#news {
+  width: 100%;
+  height: 350vh;
+  position: relative;
+  padding: 0 5%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-color);
+}
+
+.news-h1 {
+  color: var(--color-text);
+  font-size: 50px !important;
+  text-transform: uppercase;
+  font-weight: bolder;
+  position: relative;
+  top: 10px;
+  font-family: "BladeRunner";
+  text-align: center !important;
+}
+
+.title-news,
+.sub-title-news {
+  color: var(--color-text);
+  text-align: center;
+}
+
+.title-news {
+  font-size: 50px;
+}
+
+.sub-title-news {
+  font-size: 20px;
+}
+
+.news-stas {
+  width: 50%;
+  margin: a auto !important;
+  position: relative;
+  left: 25%;
+  color: var(--color-text);
+}
+
+.news-stas img {
+  width: 700px !important;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  position: relative !important;
+  left: 12%;
+}
+
+.news-stas p {
+  text-indent: 50px !important;
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+  font-size: 20px !important;
+}
+
+.spolier {
+  text-align: center !important;
+  color: red;
+}
+
+.time-line,
+.contet3 {
+  text-align: center !important;
+  margin-top: 20px !important;
+  font-size: 35px;
+}
+
+/* galery */
+
+#galery {
+  width: 100%;
+  height: 177vh;
+  position: relative;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-color);
+  border-top: 1px solid rgba(0, 0, 0, 0.308);
+}
+
+.galery-h1 {
+  color: var(--color-text);
+  position: relative !important;
+  top: -700px !important;
+  font-size: 70px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-family: "BladeRunner";
+  left: 40%;
+}
+
+.photos-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.photos-section img {
+  width: 400px;
+  border-radius: 5px;
+}
+
+.photos-section img:hover {
+  transition: all 1s;
+  transform: scale(2) rotate(360deg);
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.514);
+}
+
+
+/* 
+  TODO - Responsive Medias: 
+
+  320px — 480px: Mobile devices
+  481px — 768px: iPads, Tablets
+  769px — 1024px: Small screens, laptops
+  1025px — 1200px: Desktops, large screens
+  1201px and more —  Extra large screens, TV
+
+*/
+/* media */
+
+@media (max-width: 480px) {
+
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .back-video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .back-video {
+    width: auto;
+    height: 100%;
+  }
+}
