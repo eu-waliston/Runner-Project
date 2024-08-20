@@ -1,4 +1,68 @@
 
+/* Characters section */
+
+#characters-section {
+  width: 100%;
+  height: 250vh;
+  position: relative;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-color);
+}
+
+.characters {
+  position: absolute;
+  color: var(--color-text);
+  top: 50px;
+  font-size: 54px !important;
+  font-family: "BladeRunner";
+  z-index: 1;
+}
+
+
+.side2 {
+  position: relative;
+  height: 515px;
+  width: 750px;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0 auto !important;
+  left: -100px;
+}
+
+.personages {
+  color: var(--color-text);
+  display: grid;
+  grid-template-columns: repeat(3, 450px);
+  gap: 120px;
+}
+
+.c-img {
+  width: 500px;
+}
+
+.c-text {
+  font-size: 30px;
+}
+
+.card1 p {
+  position: relative !important;
+  margin-top: 20px !important;
+  text-indent: 15px !important;
+}
+
+.ssf {
+  position: relative;
+  top: 34px;
+}
+
+.ssdf2 {
+  position: relative;
+  left: 570px;
+}
+
 /* news */
 #news {
   width: 100%;

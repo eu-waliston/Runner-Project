@@ -17,11 +17,15 @@ const NavBar = () => {
           <a href="#characters-section">characters</a>
         </li>
         <li>
+          <a href="#trailer">Trailer</a>
+        </li>
+        <li>
           <a href="#news">news</a>
         </li>
         <li>
           <a href="#galery">galery</a>
         </li>
+
       </ul>
     </div>
   );
