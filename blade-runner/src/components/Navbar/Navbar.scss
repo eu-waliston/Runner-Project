@@ -1,0 +1,50 @@
+@import "../../utils/Variables.scss";
+
+.nav-bar {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px 8% !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: $color--text;
+
+  .nav-name {
+    font-size: 30px !important;
+    text-transform: uppercase;
+    font-weight: 500;
+
+    background-color: $bg--color-alt;
+    padding-top: 20px !important;
+    padding-left: 30px !important;
+    width: 270px;
+    height: 80px;
+
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.295);
+  }
+
+  .nav-link {
+    li {
+      list-style: none !important;
+      display: inline-block;
+      margin-left: 40px !important;
+
+      &:hover {
+        border: 2px solid $color--text;
+        padding: 10px !important;
+        font-weight: bold;
+        transition: all 0.5s;
+        border-radius: 2px;
+      }
+    }
+    a {
+      text-decoration: none !important;
+      color: $color--text !important;
+      font-size: 20px;
+
+      text-transform: uppercase !important;
+    }
+  }
+}
