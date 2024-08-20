@@ -2,4 +2,27 @@
   padding: 0 !important;
   margin: 0 !important;
   box-sizing: border-box !important;
+
+  /* Style the scrollbar container */
+  ::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+    height: 12px; /* Height for horizontal scrollbar */
+  }
+
+  /* Style the scrollbar track */
+  ::-webkit-scrollbar-track {
+    background: #080920; /* Color of the track */
+    border-radius: 10px; /* Rounded corners */
+  }
+
+  /* Style the scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background: #d62a36; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners */
+  }
+
+  /* Style the scrollbar thumb on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #8b171f; /* Darker color when hovered */
+  }
 }

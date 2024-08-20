@@ -1,0 +1,51 @@
+@import "../../utils/Variables.scss";
+
+#characters-section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #09061b;
+
+  .characters {
+    position: absolute;
+    color: $color--text;
+    top: 50px;
+    font-size: 54px !important;
+    font-family: "BladeRunner";
+    z-index: 1;
+  }
+
+  .side2 {
+    position: relative;
+    height: 515px;
+    width: 750px;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0 auto !important;
+    left: -100px;
+  }
+
+  .personages {
+    color: $color--text;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    column-gap: 200px;
+    row-gap: 30px;
+    top: 70px;
+    position: relative;
+  }
+
+  .c-img {
+    width: 400px;
+    border-radius: 100px;
+  }
+}
+
+#last {
+  position: relative;
+  left: 500px;
+}

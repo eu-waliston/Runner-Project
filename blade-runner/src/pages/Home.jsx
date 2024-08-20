@@ -4,7 +4,7 @@ import back_v from "./BR-BG.mp4";
 
 const Home = () => {
   return (
-    <div className="Home--Componment">
+    <div className="Home--Componment" id="init">
       <video autoPlay loop muted plays-inline="true" className="back-video">
         <source src={back_v} type="video/mp4" />
       </video>

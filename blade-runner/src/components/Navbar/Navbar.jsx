@@ -8,7 +8,7 @@ const NavBar = () => {
 
       <ul className="nav-link animate__animated  animate__backInDown infinite animate__slow 2s ">
         <li>
-          <a href="#hm">home</a>
+          <a href="#init">home</a>
         </li>
         <li>
           <a href="#about">about</a>
