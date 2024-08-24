@@ -20,7 +20,7 @@ const News = () => {
           <h1 class="side-a-title-news">
             Blade Runner: Black Lotus: Possible New Storylines for Season 2
           </h1>
-          <Link to="">
+          <Link to="https://www.crunchyroll.com/pt-br/series/GZJH3DPK0/blade-runner-black-lotus?srsltid=AfmBOor9G_PEluihgjLkBJDFE-3R2ogd73l8Wdzx6JlVIT6ECZjm3Pk9"  target='_blank'>
             <img
               src="/images/banner-news.png"
               alt="banner news"
@@ -37,11 +37,11 @@ const News = () => {
 
         <div className="side-b">
           <h3 className="side-b-image-title">The Timeline</h3>
-          <Link to={""}>
+          <Link to={"https://www.animenewsnetwork.com/encyclopedia/anime.php?id=24422"}  target='_blank'>
             <img src="/images/banner-news2.png" alt="" className="side-b-image "/>
           </Link>
           <h3 className="side-b-image-title space">The Second Hoverbike</h3>
-          <Link to={""}>
+          <Link to={"https://wdny.io/blade-runner/"}  target='_blank'>
             <img src="/images/banner-news3.png" alt="" className="side-b-image"/>
           </Link>
         </div>
